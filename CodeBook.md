@@ -8,20 +8,21 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 The data was downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
 A full description of the data is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The data is split into test data (30%) and training data (70%).
 
 The "run_analysis.R" script uses the following files from the downloaded folder:
-*X_test: Test set
-*Y_test: Test Labels
-*Subject_test: Each row identifies the subject who performed the activity for each window sample. 
-*X_train: Training set
-*Y_train: Training labels
-*Subject_train: Each row identifies the subject who performed the activity for each window sample. 
-*features: List of all features
-*activity_labels: Links the class labels with their activity name.
+* X_test: Test set
+* Y_test: Test Labels
+* Subject_test: Each row identifies the subject who performed the activity for each window sample. 
+* X_train: Training set
+* Y_train: Training labels
+* Subject_train: Each row identifies the subject who performed the activity for each window sample. 
+* features: List of all features
+* activity_labels: Links the class labels with their activity name.
 
 
 ## Variables
