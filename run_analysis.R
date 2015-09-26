@@ -47,6 +47,3 @@ All_sub_avg <- rename(All_sub_avg, c("Group.1"="Activity", "Group.2"="Subject"))
 # write last data set into a text file
 file_path <- "./UCI HAR Dataset/MyOutputData.txt"
 write.table(All_sub_avg, file = file_path, row.name=FALSE)
-
-
-
